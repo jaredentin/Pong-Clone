@@ -1,5 +1,5 @@
 # Pong-Clone
-A twist on pong that adds a touch of strategy to the game.
+A twist on pong with a touch of strategy.
 
 Game is continuous.
 
