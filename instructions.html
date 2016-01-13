@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Instructions</title>
+    </head>
+    <body>
+        <style>
+            div {margin-bottom: 75px;}
+            li {margin-bottom: 10px;}
+            span {position: absolute; left: 20%;}
+        </style>
+        <span style="left: 80%; font-size: 25px;"><a href="index.html">Back to game</a></span>
+        <div>
+            <h2>Gameplay</h2>
+            <h3>Classic pong rules apply.</h3>
+            <h3>The game is continuous and doesn't stop.</h3>
+            <h3>There is no official point limit. Play as long as you want.</h3>
+            <h3>Gameplay is really simple. Object descriptions are below if anyone desires detail.</h3>
+        </div>
+        <div>
+            <h2>Controls</h2>
+            <h3>Player 1 (Top Paddle):</h3>
+            <ul>
+                <li>Move Left/Right: <span>A/D keys</span></li>
+                <li>Shoot gun: <span>W key</span></li>
+                <li>Launch ball: <span>S key</span></li>
+            </ul>
+
+            <h3>Player 2 (Bottom Paddle):</h3>
+            <ul>
+                <li>Move Left/Right: <span>Left/Right arrow keys</span></li>
+                <li>Shoot gun: <span>Up arrow key</span></li>
+                <li>Launch ball: <span>Down key</span></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Game Objects</h2>
+            <h3>Ball:</h3>
+            <ul>
+                <li>Each player can launch a ball every 3 seconds.</li>
+                <li>Balls will bounce off each other.</li>
+            </ul>
+            
+            <h3>Gun:</h3>
+            <ul>
+                <li>Each player can shoot his/her gun every 3 seconds.</li>
+                <li>Gun bullets can:</li>
+                <li style="margin-left: 20px;">Destory balls.</li>
+                <li style="margin-left: 20px;">Stun another player's paddle (for 1.5 seconds).</li>
+                <li style="margin-left: 20px;">Temporarily destroy another player's gun(s).</li>
+                <li>A player's destroyed gun will regenerate upon his/her next point.</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h2>Version 2 Update</h2>
+            <h3>Bug Fixes/Polishes:</h3>
+            <ul>
+                <li>Balls will stick together significantly less often.</li>
+                <li>Points are not scored until the balls fully cross the canvas's edge.</li>
+            </ul>
+            <h3>Visuals:</h3>
+            <ul>
+                <li>Electricity buzzes around a paddle when it's stunned.</li>
+                <li>The velocity for bullets has been increased. Having the ball and bullet velocities similar sometimes forced a player to get stunned while reflecting a ball, or avoid getting stunned but consequently miss the ball.</li>
+            </ul>
+            <h3>Sounds:</h3>
+            <ul>
+                <li>Launching a ball</li>
+                <li>Shooting a gun</li>
+                <li>Breaking a ball</li>
+                <li>Breaking a gun</li>
+                <li>Stunning an opponent</li>
+                <li>Scoring a point</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h2>Known bugs</h2>
+            <h3>Balls will occasionally stick together when they collide.</h3>
+            <h3>Balls will occasionally go through a paddle if the balls are very close together.</h3>
+            <h3>If a player's gun is destroyed and the paddle is stunned by the same bullet, the sound for breaking the gun will not play.</h3>
+        </div>
+    </body>
+</html>

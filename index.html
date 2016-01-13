@@ -1,0 +1,43 @@
+<!--
+TODOS
+-comentators
+-sparks when bullets are fired
+-explosion when gun is hit
+-play 'we are the champions' when player wins but overwrite with screaming 'i am the champion'
+
+bugs
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pong Clone</title>
+    </head>
+    <body>
+        <style>
+            * { padding: 0; margin: 0;}
+            canvas { background: #eee; display: block; margin: 0 auto;}
+        </style>
+        <canvas id="pong" width="1024" height="768"></canvas>
+        <br>
+        <div style="text-align: center;">
+            <div style="display: inline-block; margin-right: 200px;">
+                <h2>Player 1:</h2>
+                <br>
+                <h1 id="p1Score" ></h1>
+            </div>
+
+            <div style="display: inline-block; margin-left: 200px;">
+                <h2>Player 2:</h2>
+                <br>
+                <h1 id="p2Score" ></h1>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="instructions.html" style="font-size: 35px;">Instructions</a>
+        </div>
+        
+        <script src="objects.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
