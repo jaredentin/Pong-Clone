@@ -1,17 +1,13 @@
 # Pong-Clone
 A twist on pong with a touch of strategy.
 
-Game is continuous.
+The game is continuous. Scoring points does not affect the pacing of the game.
+There is no built in stopping point. People can play for as long as they want.
 
-
-
-### Multiple balls
+### Multiple balls can be in play at once.
 ![Multiple balls](Screenshot 1.PNG)
-Multiple balls can be in play at once.
 
-### Lightning shock
-![Shock](Screenshot 2.PNG)
-
-### Paddle lasers 
+### Players can shoot lasers to shock each other and destroy balls.
 ![Paddle lasers](Screenshot 3.PNG)
-Players can shoot lasers to shock each other and destroy balls.
+
+![Shock](Screenshot 2.PNG)
