@@ -10,7 +10,8 @@ Players can shoot lasers to shock each other and destory balls.
 ### Multiple balls
 ![Multiple balls](Screenshot 1.PNG)
 
-### Players can shock each other, temporarily disabling movement.
+Players can shock each other, temporarily disabling movement.
+### 
 ![Shock](Screenshot 2.PNG)
 
 ### Paddle lasers 
